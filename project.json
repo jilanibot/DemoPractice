@@ -1,0 +1,82 @@
+{
+  "name": "Practice",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "70880a39-3400-4373-82b3-f49f5e9fb15a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Even_Odd.xaml",
+      "uniqueId": "72f6bd40-47c6-4066-a013-8dbab5cbdb1a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Arithmetic_Operations.xaml",
+      "uniqueId": "8a843f56-0c4b-49c9-ab80-951a207bf262",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Fibonacci_Series.xaml",
+      "uniqueId": "cf9f0124-377f-42ec-8099-55565248c3c3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Multiplication_Table.xaml",
+      "uniqueId": "9d7ec5e4-fa9a-4365-8e20-43af8617b8e3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
